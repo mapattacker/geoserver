@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>GeoServer Guide &#8212; GeoServer  documentation</title>
+    <title>Installation &#8212; GeoServer  documentation</title>
     
     <link rel="stylesheet" href="_static/css/adctheme.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -26,8 +26,8 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="top" title="GeoServer  documentation" href="#" />
-    <link rel="next" title="Installation" href="install.html" />
+    <link rel="top" title="GeoServer  documentation" href="index.html" />
+    <link rel="prev" title="GeoServer Guide" href="index.html" />
     <link media="only screen and (max-device-width: 480px)" href="_static/css/mobile.css" type="text/css" rel="stylesheet" /> 
   </head>
   <body role="document">
@@ -35,27 +35,27 @@
     <p>GeoServer  documentation</p>
 </div>
 <div id="header">
-    <div id="title"><h1>GeoServer Guide</h1></div>
+    <div id="title"><h1>Installation</h1></div>
     <ul id="headerButtons">
         <li id="toc_button"><div class="headerButton"><a href="#">Table of Contents</a></div></li>
         <li id="page_buttons">
             <div class="headerButton"><a href="genindex.html" title="General Index" accesskey="I">index</a></div>
-            <div class="headerButton"><a href="install.html" title="Installation" accesskey="N">next</a></div>
+            <div class="headerButton"><a href="index.html" title="GeoServer Guide" accesskey="P">previous</a></div>
         </li>
     </ul>
 </div>
 
 <div id="sphinxsidebar">
   <div class="sphinxsidebarwrapper">
-        <ul><li class="toctree-l1"><a href="#">Main Page</a></li></ul>
-        <p class="caption"><span class="caption-text">Contents</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+        <ul><li class="toctree-l1"><a href="index.html">Main Page</a></li></ul>
+        <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
 </ul>
 
       <h3>This Page</h3>
       <ul class="this-page-menu">
-        <li><a href="_sources/index.rst.txt"
+        <li><a href="_sources/install.rst.txt"
                rel="nofollow">Show Source</a></li>
       </ul>
     <div id="searchbox" style="display: none">
@@ -80,20 +80,37 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="geoserver-guide">
-<h1>GeoServer Guide<a class="headerlink" href="#geoserver-guide" title="Permalink to this headline">¶</a></h1>
-<p>This documentation gave a guide how to smoothen the process of setting up and running a map-service using GeoServer.</p>
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="windows-mac-linux">
+<h2>Windows, Mac, Linux<a class="headerlink" href="#windows-mac-linux" title="Permalink to this headline">¶</a></h2>
+<p>View the official GeoServer page for the relevant guides.
+<a class="reference external" href="http://docs.geoserver.org/stable/en/user/installation/index.html">http://docs.geoserver.org/stable/en/user/installation/index.html</a></p>
+</div>
+<div class="section" id="docker">
+<h2>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://hub.docker.com/r/kartoza/geoserver/">https://hub.docker.com/r/kartoza/geoserver/</a></p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<div class="align-center figure">
-<a class="reference internal image-reference" href="_images/geoserverlogo.png"><img alt="alternate text" src="_images/geoserverlogo.png" style="width: 450px;" /></a>
+<p><code class="docutils literal"><span class="pre">docker</span> <span class="pre">run</span> <span class="pre">--name</span> <span class="pre">&quot;geoserver&quot;</span> <span class="pre">-v</span> <span class="pre">~/Users/xxx/docker/geoserver:/opt/geoserver_data/data</span> <span class="pre">-d</span> <span class="pre">-p</span> <span class="pre">8080:8080</span> <span class="pre">kartoza/geoserver</span></code></p>
+<div class="line-block">
+<div class="line"><br /></div>
 </div>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Contents</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
-</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Data Directory:</th><td class="field-body"><code class="docutils literal"><span class="pre">/opt/geoserver_data/data</span></code>, note it varies with containers</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Url:</th><td class="field-body">localhost:8080/geoserver</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Username:</th><td class="field-body">admin</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Password:</th><td class="field-body">geoserver</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
@@ -111,7 +128,7 @@
       <div class="clearer"></div>
     </div>
         <div id="breadcrumbs">
-                GeoServer Guide
+                Installation
         </div>
         <script type="text/javascript" charset="utf-8" src="_static/js/toc.js"></script>
   </body>

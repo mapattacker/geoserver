@@ -1,0 +1,22 @@
+Installation
+=============
+
+Windows, Mac, Linux
+--------------------
+View the official GeoServer page for the relevant guides.
+http://docs.geoserver.org/stable/en/user/installation/index.html
+
+Docker
+-------
+https://hub.docker.com/r/kartoza/geoserver/
+
+|
+
+``docker run --name "geoserver" -v ~/Users/xxx/docker/geoserver:/opt/geoserver_data/data -d -p 8080:8080 kartoza/geoserver``
+
+|
+
+:Data Directory: ``/opt/geoserver_data/data``, note it varies with containers
+:Url: localhost:8080/geoserver
+:Username: admin
+:Password: geoserver
