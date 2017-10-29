@@ -6,6 +6,7 @@
 GeoServer Guide
 =====================================
 This documentation gave a guide how to smooth in the process of setting up and running a map-service using GeoServer.
+|
 
 .. figure:: images/geoserverlogo.png
     :width: 450px
