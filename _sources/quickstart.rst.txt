@@ -1,0 +1,29 @@
+Quick Start
+============
+GeoServer User Manual provides a good tutorial_ on this.
+
+.. _tutorial: http://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html
+
+Workspace
+-----------
+A workspace is used to group similar layers together. More in link1_.
+
+.. _link1: http://docs.geoserver.org/latest/en/user/data/webadmin/workspaces.html
+
+
+Store
+-------
+A store connects to a specific data source. Examples include shapefiles & GeoTIFF. More in link2_.
+
+.. _link2: http://docs.geoserver.org/latest/en/user/data/webadmin/stores.html
+
+
+Publish Layer
+--------------
+
+.. _link3: http://docs.geoserver.org/latest/en/user/data/webadmin/layers.html
+
+
+Preview
+------------
+

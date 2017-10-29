@@ -22,6 +22,7 @@ This documentation gave a guide how to smoothen the process of setting up and ru
    :caption: Contents
    
    install
+   quickstart
    explorer
    basemap
 
