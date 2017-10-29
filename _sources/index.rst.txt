@@ -3,8 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GeoServer's documentation!
+GeoServer Guide
 =====================================
+This documentation gave a guide how to smooth in the process of setting up and running a map-service using GeoServer.
+
+.. figure:: images/geoserverlogo.png
+    :width: 450px
+    :align: center
+    :alt: alternate text
+    :figclass: align-center
 
 .. toctree::
    :maxdepth: 2
