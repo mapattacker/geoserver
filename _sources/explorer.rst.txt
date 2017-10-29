@@ -1,0 +1,35 @@
+GeoServer Explorer
+===================
+GeoServer Explorer is a 3rd party plugin offered in QGIS, an open-source GIS software.
+It makes management of GeoServer much easier than the default GeoServer administration GUI.
+
+Before anything, go to QGIS page_ to install the software. Do it, its an excellent one!
+
+.. _page: http://www.qgis.org/en/site/forusers/download.html
+
+
+Installation
+------------
+Go to ``Plugins``
+  * ``Manage & Install Plugins``
+  * ``Not Installed`` tab
+  * Search ``GeoServer Explorer``
+  * Click ``Install Plugin``
+  
+The installed plugin is located at ``Web`` > ``GeoServer`` > ``GeoServer Explorer``
+
+
+Configuration
+--------------
+To access GeoServer administration, login according with the host, port, username & password.
+Default username & password is admin & geoserver.
+
+.. figure:: images/explorer1.png
+    :width: 550px
+    :align: center
+    :alt: alternate text
+    :figclass: align-center
+    
+    
+    
+    
