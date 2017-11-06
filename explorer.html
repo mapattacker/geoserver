@@ -28,7 +28,7 @@
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="GeoServer  documentation" href="index.html" />
     <link rel="next" title="Base Maps" href="basemap.html" />
-    <link rel="prev" title="Installation" href="install.html" />
+    <link rel="prev" title="Quick Start" href="quickstart.html" />
     <link media="only screen and (max-device-width: 480px)" href="_static/css/mobile.css" type="text/css" rel="stylesheet" /> 
   </head>
   <body role="document">
@@ -42,7 +42,7 @@
         <li id="page_buttons">
             <div class="headerButton"><a href="genindex.html" title="General Index" accesskey="I">index</a></div>
             <div class="headerButton"><a href="basemap.html" title="Base Maps" accesskey="N">next</a></div>
-            <div class="headerButton"><a href="install.html" title="Installation" accesskey="P">previous</a></div>
+            <div class="headerButton"><a href="quickstart.html" title="Quick Start" accesskey="P">previous</a></div>
         </li>
     </ul>
 </div>
@@ -53,6 +53,7 @@
         <p class="caption"><span class="caption-text">Contents</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">GeoServer Explorer</a></li>
 <li class="toctree-l1"><a class="reference internal" href="basemap.html">Base Maps</a></li>
 </ul>
@@ -109,6 +110,31 @@ It makes management of GeoServer much easier than the default GeoServer administ
 Default username &amp; password is admin &amp; geoserver.</p>
 <div class="align-center figure">
 <a class="reference internal image-reference" href="_images/explorer1.png"><img alt="alternate text" src="_images/explorer1.png" style="width: 550px;" /></a>
+</div>
+</div>
+<div class="section" id="upload-publish-layers">
+<h2>Upload &amp; Publish Layers<a class="headerlink" href="#upload-publish-layers" title="Permalink to this headline">¶</a></h2>
+<p>Prepare the cartography in QGIS for each layer. Now drag the layer from the TOC to the GeoServer Explorer on the right and drop it
+under <code class="docutils literal"><span class="pre">layers</span></code>. Both the layer and style are uploaded to GeoServer.</p>
+<p>Now, choose the coordinate system, and also set the style to the one you just uploaded.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/qgis1.png"><img alt="alternate text" src="_images/qgis1.png" style="width: 550px;" /></a>
+</div>
+<p>Going to GeoServer interface &gt; Layers, you can see that the layers are not enabled yet.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/qgis2.png"><img alt="alternate text" src="_images/qgis2.png" style="width: 550px;" /></a>
+</div>
+<p>Click on the layer and under Data tab, check <strong>Enable</strong>.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/qgis3.png"><img alt="alternate text" src="_images/qgis3.png" style="width: 550px;" /></a>
+</div>
+<p>Also, click <strong>Compute from native bounds</strong>.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/qgis4.png"><img alt="alternate text" src="_images/qgis4.png" style="width: 550px;" /></a>
+</div>
+<p>If you have yet to select a style, you can go to the Publishing tab and select from here.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/qgis5.png"><img alt="alternate text" src="_images/qgis5.png" style="width: 550px;" /></a>
 </div>
 </div>
 </div>
