@@ -45,6 +45,8 @@ Now, choose the coordinate system, and also set the style to the one you just up
     :alt: alternate text
     :figclass: align-center
 
+|
+
 Going to GeoServer interface > Layers, you can see that the layers are not enabled yet.
 
 .. figure:: images/qgis2.png
@@ -52,6 +54,8 @@ Going to GeoServer interface > Layers, you can see that the layers are not enabl
     :align: center
     :alt: alternate text
     :figclass: align-center
+
+|
 
 Click on the layer and under Data tab, check **Enable**.
 
@@ -61,6 +65,8 @@ Click on the layer and under Data tab, check **Enable**.
     :alt: alternate text
     :figclass: align-center
 
+|
+
 Also, click **Compute from native bounds**.
 
 .. figure:: images/qgis4.png
@@ -68,6 +74,8 @@ Also, click **Compute from native bounds**.
     :align: center
     :alt: alternate text
     :figclass: align-center
+
+|
 
 If you have yet to select a style, you can go to the Publishing tab and select from here.
 
