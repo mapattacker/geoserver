@@ -40,7 +40,7 @@ under ``layers``. Both the layer and style are uploaded to GeoServer.
 Now, choose the coordinate system, and also set the style to the one you just uploaded.
 
 .. figure:: images/qgis1.png
-    :width: 550px
+    :width: 650px
     :align: center
     :alt: alternate text
     :figclass: align-center
@@ -48,7 +48,7 @@ Now, choose the coordinate system, and also set the style to the one you just up
 Going to GeoServer interface > Layers, you can see that the layers are not enabled yet.
 
 .. figure:: images/qgis2.png
-    :width: 550px
+    :width: 650px
     :align: center
     :alt: alternate text
     :figclass: align-center
@@ -56,7 +56,7 @@ Going to GeoServer interface > Layers, you can see that the layers are not enabl
 Click on the layer and under Data tab, check **Enable**.
 
 .. figure:: images/qgis3.png
-    :width: 550px
+    :width: 450px
     :align: center
     :alt: alternate text
     :figclass: align-center
@@ -72,7 +72,7 @@ Also, click **Compute from native bounds**.
 If you have yet to select a style, you can go to the Publishing tab and select from here.
 
 .. figure:: images/qgis5.png
-    :width: 550px
+    :width: 350px
     :align: center
     :alt: alternate text
     :figclass: align-center
