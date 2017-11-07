@@ -22,7 +22,7 @@ The installed plugin is located at ``Web`` > ``GeoServer`` > ``GeoServer Explore
 Configuration
 --------------
 To access GeoServer administration, login according with the host, port, username & password.
-Default username & password is admin & geoserver.
+Default username & password is admin & geoserver. 
 
 .. figure:: images/explorer1.png
     :width: 550px
@@ -35,9 +35,12 @@ Upload & Publish Layers
 ------------------------
 
 Prepare the cartography in QGIS for each layer. Now drag the layer from the TOC to the GeoServer Explorer on the right and drop it
-under ``layers``. Both the layer and style are uploaded to GeoServer.
+under ``layers``. Both the layer and style are uploaded to GeoServer. Note that the styling will add a default border though.
+You will need to change this in GeoServer administration interface.
 
-Now, choose the coordinate system, and also set the style to the one you just uploaded.
+Now, choose the coordinate system, you can just search Singapore or other countries etc, and click on the appropriate CRS. 
+Note that the option adding of styles to the layer is not working at this point of time.
+
 
 .. figure:: images/qgis1.png
     :width: 650px
@@ -77,7 +80,7 @@ Also, click **Compute from native bounds**.
 
 |
 
-If you have yet to select a style, you can go to the Publishing tab and select from here.
+To assign a style to the layer, you can go to the Publishing tab and select from the dropdown list.
 
 .. figure:: images/qgis5.png
     :width: 350px

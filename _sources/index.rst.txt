@@ -24,6 +24,8 @@ This documentation gave a guide how to smoothen the process of setting up and ru
    install
    quickstart
    explorer
+   groups
+   style
    basemap
 
 

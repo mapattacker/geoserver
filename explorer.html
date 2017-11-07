@@ -1,16 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>GeoServer Explorer &#8212; GeoServer  documentation</title>
-    
     <link rel="stylesheet" href="_static/css/adctheme.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -27,11 +23,11 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="GeoServer  documentation" href="index.html" />
-    <link rel="next" title="Base Maps" href="basemap.html" />
+    <link rel="next" title="Layer Groups" href="groups.html" />
     <link rel="prev" title="Quick Start" href="quickstart.html" />
     <link media="only screen and (max-device-width: 480px)" href="_static/css/mobile.css" type="text/css" rel="stylesheet" /> 
   </head>
-  <body role="document">
+  <body>
 <div id="docstitle">
     <p>GeoServer  documentation</p>
 </div>
@@ -41,7 +37,7 @@
         <li id="toc_button"><div class="headerButton"><a href="#">Table of Contents</a></div></li>
         <li id="page_buttons">
             <div class="headerButton"><a href="genindex.html" title="General Index" accesskey="I">index</a></div>
-            <div class="headerButton"><a href="basemap.html" title="Base Maps" accesskey="N">next</a></div>
+            <div class="headerButton"><a href="groups.html" title="Layer Groups" accesskey="N">next</a></div>
             <div class="headerButton"><a href="quickstart.html" title="Quick Start" accesskey="P">previous</a></div>
         </li>
     </ul>
@@ -55,6 +51,7 @@
 <li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">GeoServer Explorer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="groups.html">Layer Groups</a></li>
 <li class="toctree-l1"><a class="reference internal" href="basemap.html">Base Maps</a></li>
 </ul>
 
@@ -115,8 +112,10 @@ Default username &amp; password is admin &amp; geoserver.</p>
 <div class="section" id="upload-publish-layers">
 <h2>Upload &amp; Publish Layers<a class="headerlink" href="#upload-publish-layers" title="Permalink to this headline">¶</a></h2>
 <p>Prepare the cartography in QGIS for each layer. Now drag the layer from the TOC to the GeoServer Explorer on the right and drop it
-under <code class="docutils literal"><span class="pre">layers</span></code>. Both the layer and style are uploaded to GeoServer.</p>
-<p>Now, choose the coordinate system, and also set the style to the one you just uploaded.</p>
+under <code class="docutils literal"><span class="pre">layers</span></code>. Both the layer and style are uploaded to GeoServer. Note that the styling will add a default border though.
+You will need to change this in GeoServer administration interface.</p>
+<p>Now, choose the coordinate system, you can just search Singapore or other countries etc, and click on the appropriate CRS.
+Note that the option adding of styles to the layer is not working at this point of time.</p>
 <div class="align-center figure">
 <a class="reference internal image-reference" href="_images/qgis1.png"><img alt="alternate text" src="_images/qgis1.png" style="width: 650px;" /></a>
 </div>
@@ -144,7 +143,7 @@ under <code class="docutils literal"><span class="pre">layers</span></code>. Bot
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>If you have yet to select a style, you can go to the Publishing tab and select from here.</p>
+<p>To assign a style to the layer, you can go to the Publishing tab and select from the dropdown list.</p>
 <div class="align-center figure">
 <a class="reference internal image-reference" href="_images/qgis5.png"><img alt="alternate text" src="_images/qgis5.png" style="width: 350px;" /></a>
 </div>
@@ -158,7 +157,7 @@ under <code class="docutils literal"><span class="pre">layers</span></code>. Bot
     <div class="footer">
     <p>
       &copy; Copyright 2017, Jake.
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.5.1 <a href="https://github.com/mga-sphinx/sphinx_adc_theme">ADC Theme</a> .
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.6.3 <a href="https://github.com/mga-sphinx/sphinx_adc_theme">ADC Theme</a> .
     (Revision )
         </p>
     </div>

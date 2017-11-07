@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Quick Start &#8212; GeoServer  documentation</title>
+    <title>Layer Groups &#8212; GeoServer  documentation</title>
     <link rel="stylesheet" href="_static/css/adctheme.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -23,8 +23,8 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="GeoServer  documentation" href="index.html" />
-    <link rel="next" title="GeoServer Explorer" href="explorer.html" />
-    <link rel="prev" title="Installation" href="install.html" />
+    <link rel="next" title="Base Maps" href="basemap.html" />
+    <link rel="prev" title="GeoServer Explorer" href="explorer.html" />
     <link media="only screen and (max-device-width: 480px)" href="_static/css/mobile.css" type="text/css" rel="stylesheet" /> 
   </head>
   <body>
@@ -32,13 +32,13 @@
     <p>GeoServer  documentation</p>
 </div>
 <div id="header">
-    <div id="title"><h1>Quick Start</h1></div>
+    <div id="title"><h1>Layer Groups</h1></div>
     <ul id="headerButtons">
         <li id="toc_button"><div class="headerButton"><a href="#">Table of Contents</a></div></li>
         <li id="page_buttons">
             <div class="headerButton"><a href="genindex.html" title="General Index" accesskey="I">index</a></div>
-            <div class="headerButton"><a href="explorer.html" title="GeoServer Explorer" accesskey="N">next</a></div>
-            <div class="headerButton"><a href="install.html" title="Installation" accesskey="P">previous</a></div>
+            <div class="headerButton"><a href="basemap.html" title="Base Maps" accesskey="N">next</a></div>
+            <div class="headerButton"><a href="explorer.html" title="GeoServer Explorer" accesskey="P">previous</a></div>
         </li>
     </ul>
 </div>
@@ -49,15 +49,15 @@
         <p class="caption"><span class="caption-text">Contents</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
 <li class="toctree-l1"><a class="reference internal" href="explorer.html">GeoServer Explorer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="groups.html">Layer Groups</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Layer Groups</a></li>
 <li class="toctree-l1"><a class="reference internal" href="basemap.html">Base Maps</a></li>
 </ul>
 
       <h3>This Page</h3>
       <ul class="this-page-menu">
-        <li><a href="_sources/quickstart.rst.txt"
+        <li><a href="_sources/groups.rst.txt"
                rel="nofollow">Show Source</a></li>
       </ul>
     <div id="searchbox" style="display: none">
@@ -82,22 +82,18 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="quick-start">
-<h1>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h1>
-<p>GeoServer User Manual provides a good <a class="reference external" href="http://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html">tutorial</a> on this.</p>
-<div class="section" id="workspace">
-<h2>Workspace<a class="headerlink" href="#workspace" title="Permalink to this headline">¶</a></h2>
-<p>A workspace is used to group similar layers together. More in <a class="reference external" href="http://docs.geoserver.org/latest/en/user/data/webadmin/workspaces.html">link1</a>.</p>
+  <div class="section" id="layer-groups">
+<h1>Layer Groups<a class="headerlink" href="#layer-groups" title="Permalink to this headline">¶</a></h1>
+<p>To show multiple layers in a single map service, click <code class="docutils literal"><span class="pre">Layer</span> <span class="pre">Group</span></code> &gt; <code class="docutils literal"><span class="pre">Add</span> <span class="pre">New</span> <span class="pre">Layer</span> <span class="pre">Group</span></code>.</p>
+<p>Now we can add the layers required and order them accordingly.
+Note that if you change the style of a particular layer, it will not be automatically reflected in the same layer in this layer group.
+You will need to delete and add back the layer again.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/explorer1.png"><img alt="alternate text" src="_images/explorer1.png" style="width: 550px;" /></a>
 </div>
-<div class="section" id="store">
-<h2>Store<a class="headerlink" href="#store" title="Permalink to this headline">¶</a></h2>
-<p>A store connects to a specific data source. Examples include shapefiles &amp; GeoTIFF. More in <a class="reference external" href="http://docs.geoserver.org/latest/en/user/data/webadmin/stores.html">link2</a>.</p>
-</div>
-<div class="section" id="publish-layer">
-<h2>Publish Layer<a class="headerlink" href="#publish-layer" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="preview">
-<h2>Preview<a class="headerlink" href="#preview" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Note that QGIS GeoServer Explorer plugin has an option to create layer groups but it has not allow ordering of the layers, which pretty much render it useless.</p>
 </div>
 </div>
 
@@ -115,7 +111,7 @@
       <div class="clearer"></div>
     </div>
         <div id="breadcrumbs">
-                Quick Start
+                Layer Groups
         </div>
         <script type="text/javascript" charset="utf-8" src="_static/js/toc.js"></script>
   </body>
