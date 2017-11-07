@@ -7,8 +7,10 @@ Now we can add the layers required and order them accordingly.
 Note that if you change the style of a particular layer, it will not be automatically reflected in the same layer in this layer group.
 You will need to delete and add back the layer again.
 
+|
+
 .. figure:: images/group.png
-    :width: 550px
+    :width: 650px
     :align: center
     :alt: alternate text
     :figclass: align-center

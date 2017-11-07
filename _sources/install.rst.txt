@@ -12,7 +12,7 @@ https://hub.docker.com/r/kartoza/geoserver/
 
 |
 
-``docker run --name "geoserver" -v ~/Users/xxx/docker/geoserver:/opt/geoserver_data/data -d -p 8080:8080 kartoza/geoserver``
+``docker run --name "geoserver" -v ~/docker/geoserver:/opt/geoserver/data_dir -d -p 8080:8080 kartoza/geoserver``
 
 |
 
