@@ -85,6 +85,34 @@
             
   <div class="section" id="styles">
 <h1>Styles<a class="headerlink" href="#styles" title="Permalink to this headline">¶</a></h1>
+<div class="code xml highlight-default"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;StyledLayerDescriptor xmlns=&quot;http://www.opengis.net/sld&quot; xmlns:ogc=&quot;http://www.opengis.net/ogc&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;1.1.0&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xsi:schemaLocation=&quot;http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd&quot; xmlns:se=&quot;http://www.opengis.net/se&quot;&gt;
+  &lt;NamedLayer&gt;
+    &lt;se:Name&gt;building&lt;/se:Name&gt;
+    &lt;UserStyle&gt;
+      &lt;se:Name&gt;building&lt;/se:Name&gt;
+      &lt;se:FeatureTypeStyle&gt;
+        &lt;se:Rule&gt;
+          &lt;se:Name&gt;Single symbol&lt;/se:Name&gt;
+          &lt;se:MinScaleDenominator&gt;0&lt;/se:MinScaleDenominator&gt;
+          &lt;se:MaxScaleDenominator&gt;10000&lt;/se:MaxScaleDenominator&gt;
+          &lt;se:PolygonSymbolizer&gt;
+            &lt;se:Fill&gt;
+              &lt;se:SvgParameter name=&quot;fill&quot;&gt;#e3e4e4&lt;/se:SvgParameter&gt;
+            &lt;/se:Fill&gt;
+            &lt;se:Stroke&gt;
+              &lt;se:SvgParameter name=&quot;stroke&quot;&gt;#9a9b9b&lt;/se:SvgParameter&gt;
+              &lt;se:SvgParameter name=&quot;stroke-width&quot;&gt;0.1&lt;/se:SvgParameter&gt;
+              &lt;se:SvgParameter name=&quot;stroke-linejoin&quot;&gt;bevel&lt;/se:SvgParameter&gt;
+            &lt;/se:Stroke&gt;
+          &lt;/se:PolygonSymbolizer&gt;
+        &lt;/se:Rule&gt;
+      &lt;/se:FeatureTypeStyle&gt;
+    &lt;/UserStyle&gt;
+  &lt;/NamedLayer&gt;
+&lt;/StyledLayerDescriptor&gt;
+</pre></div>
+</div>
 </div>
 
 
