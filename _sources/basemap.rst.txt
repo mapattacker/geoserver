@@ -17,3 +17,21 @@ ArcGIS
 
 Tableau
 --------
+Go to Map > Background Maps > Map Services.
+
+.. figure:: images/map1.png
+    :width: 550px
+    :align: center
+    :alt: alternate text
+    :figclass: align-center
+
+|
+
+Click on Add > WMS Services. Paste the url in, and give it a name.
+Once added with no errors, we can go back to Map > Background Maps and add that map service to the map chart into Tableau.
+
+.. figure:: images/map2.png
+    :width: 550px
+    :align: center
+    :alt: alternate text
+    :figclass: align-center
