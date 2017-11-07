@@ -7,12 +7,12 @@ Now we can add the layers required and order them accordingly.
 Note that if you change the style of a particular layer, it will not be automatically reflected in the same layer in this layer group.
 You will need to delete and add back the layer again.
 
-.. figure:: images/explorer1.png
+.. figure:: images/group.png
     :width: 550px
     :align: center
     :alt: alternate text
     :figclass: align-center
 
 .. note::
-  Note that QGIS GeoServer Explorer plugin has an option to create layer groups but it has not allow ordering of the layers, which pretty much render it useless.
+  QGIS GeoServer Explorer plugin has an option to create layer groups but it has not allow ordering of the layers, which pretty much render it useless.
   

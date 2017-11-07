@@ -1,5 +1,13 @@
 Base Maps
 ==========
+To add the create map services to render in other software, we will need to grap the url.
+To do that, go to GeoServer > Layer Preview > click layer > copy the url as shown below.
+
+.. figure:: images/basemap1.png
+    :width: 550px
+    :align: center
+    :alt: alternate text
+    :figclass: align-center
 
 QGIS
 -----
