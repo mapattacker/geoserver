@@ -39,10 +39,10 @@ Once added with no errors, we can go back to Map > Background Maps and add that 
 |
 
 If you are using a layer group WMS, Tableau will automatically order the layers by alphabetical order. In order to overcome this limitation,
-you will need to number the ``Name`` field in GeoServer for each layer, e.g., (1 Coastline), (2 Waterbodies), (3 Roads). See more _link.
+you will need to number the ``Name`` field in GeoServer for each layer, e.g., (1 Coastline), (2 Waterbodies), (3 Roads). See more link_.
 
 .. figure:: images/map3.png
-    :width: 500px
+    :width: 300px
     :align: center
     :alt: alternate text
     :figclass: align-center
