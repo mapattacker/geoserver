@@ -42,7 +42,7 @@ If you are using a layer group WMS, Tableau will automatically order the layers 
 you will need to number the ``Name`` field in GeoServer for each layer, e.g., (1 Coastline), (2 Waterbodies), (3 Roads). See more link_.
 
 .. figure:: images/map3.png
-    :width: 300px
+    :width: 200px
     :align: center
     :alt: alternate text
     :figclass: align-center
