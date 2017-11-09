@@ -1,0 +1,6 @@
+Resources
+==========
+
+  * Coordinate Systems & Projections link1_
+
+.. _link1: http://desktop.arcgis.com/en/arcmap/latest/map/projections/list-of-supported-map-projections.htm

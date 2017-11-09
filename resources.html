@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Styles &#8212; GeoServer  documentation</title>
+    <title>Resources &#8212; GeoServer  documentation</title>
     <link rel="stylesheet" href="_static/css/adctheme.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -23,8 +23,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="GeoServer  documentation" href="index.html" />
-    <link rel="next" title="Base Maps" href="basemap.html" />
-    <link rel="prev" title="Layer Groups" href="groups.html" />
+    <link rel="prev" title="Base Maps" href="basemap.html" />
     <link media="only screen and (max-device-width: 480px)" href="_static/css/mobile.css" type="text/css" rel="stylesheet" /> 
   </head>
   <body>
@@ -32,13 +31,12 @@
     <p>GeoServer  documentation</p>
 </div>
 <div id="header">
-    <div id="title"><h1>Styles</h1></div>
+    <div id="title"><h1>Resources</h1></div>
     <ul id="headerButtons">
         <li id="toc_button"><div class="headerButton"><a href="#">Table of Contents</a></div></li>
         <li id="page_buttons">
             <div class="headerButton"><a href="genindex.html" title="General Index" accesskey="I">index</a></div>
-            <div class="headerButton"><a href="basemap.html" title="Base Maps" accesskey="N">next</a></div>
-            <div class="headerButton"><a href="groups.html" title="Layer Groups" accesskey="P">previous</a></div>
+            <div class="headerButton"><a href="basemap.html" title="Base Maps" accesskey="P">previous</a></div>
         </li>
     </ul>
 </div>
@@ -52,14 +50,14 @@
 <li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
 <li class="toctree-l1"><a class="reference internal" href="explorer.html">GeoServer Explorer</a></li>
 <li class="toctree-l1"><a class="reference internal" href="groups.html">Layer Groups</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Styles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="styles.html">Styles</a></li>
 <li class="toctree-l1"><a class="reference internal" href="basemap.html">Base Maps</a></li>
-<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Resources</a></li>
 </ul>
 
       <h3>This Page</h3>
       <ul class="this-page-menu">
-        <li><a href="_sources/styles.rst.txt"
+        <li><a href="_sources/resources.rst.txt"
                rel="nofollow">Show Source</a></li>
       </ul>
     <div id="searchbox" style="display: none">
@@ -84,37 +82,13 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="styles">
-<h1>Styles<a class="headerlink" href="#styles" title="Permalink to this headline">¶</a></h1>
-<p>The Max &amp; Min scalers are the more important styles to remember.</p>
-<div class="code xml highlight-default"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;StyledLayerDescriptor xmlns=&quot;http://www.opengis.net/sld&quot; xmlns:ogc=&quot;http://www.opengis.net/ogc&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;1.1.0&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xsi:schemaLocation=&quot;http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd&quot; xmlns:se=&quot;http://www.opengis.net/se&quot;&gt;
-  &lt;NamedLayer&gt;
-    &lt;se:Name&gt;building&lt;/se:Name&gt;
-    &lt;UserStyle&gt;
-      &lt;se:Name&gt;building&lt;/se:Name&gt;
-      &lt;se:FeatureTypeStyle&gt;
-        &lt;se:Rule&gt;
-          &lt;se:Name&gt;Single symbol&lt;/se:Name&gt;
-          &lt;se:MinScaleDenominator&gt;0&lt;/se:MinScaleDenominator&gt;
-          &lt;se:MaxScaleDenominator&gt;10000&lt;/se:MaxScaleDenominator&gt;
-          &lt;se:PolygonSymbolizer&gt;
-            &lt;se:Fill&gt;
-              &lt;se:SvgParameter name=&quot;fill&quot;&gt;#e3e4e4&lt;/se:SvgParameter&gt;
-            &lt;/se:Fill&gt;
-            &lt;se:Stroke&gt;
-              &lt;se:SvgParameter name=&quot;stroke&quot;&gt;#9a9b9b&lt;/se:SvgParameter&gt;
-              &lt;se:SvgParameter name=&quot;stroke-width&quot;&gt;0.1&lt;/se:SvgParameter&gt;
-              &lt;se:SvgParameter name=&quot;stroke-linejoin&quot;&gt;bevel&lt;/se:SvgParameter&gt;
-            &lt;/se:Stroke&gt;
-          &lt;/se:PolygonSymbolizer&gt;
-        &lt;/se:Rule&gt;
-      &lt;/se:FeatureTypeStyle&gt;
-    &lt;/UserStyle&gt;
-  &lt;/NamedLayer&gt;
-&lt;/StyledLayerDescriptor&gt;
-</pre></div>
-</div>
+  <div class="section" id="resources">
+<h1>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><ul class="simple">
+<li>Coordinate Systems &amp; Projections <a class="reference external" href="http://desktop.arcgis.com/en/arcmap/latest/map/projections/list-of-supported-map-projections.htm">link1</a></li>
+</ul>
+</div></blockquote>
 </div>
 
 
@@ -131,7 +105,7 @@
       <div class="clearer"></div>
     </div>
         <div id="breadcrumbs">
-                Styles
+                Resources
         </div>
         <script type="text/javascript" charset="utf-8" src="_static/js/toc.js"></script>
   </body>

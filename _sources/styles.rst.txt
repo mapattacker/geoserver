@@ -1,7 +1,7 @@
 Styles
 ======
 
-
+The Max & Min scalers are the more important styles to remember.
 
 .. code:: xml
 
