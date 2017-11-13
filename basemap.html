@@ -114,11 +114,6 @@ Once added with no errors, we can go back to Map &gt; Background Maps and add th
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>If you are using a layer group WMS, Tableau will automatically order the layers by alphabetical order, rather than what you ordered in GeoServer layer groups.
-In order to overcome this limitation, you will need to number the <code class="docutils literal"><span class="pre">Name</span></code> field in GeoServer for each layer, e.g., (1 Coastline), (2 Waterbodies), (3 Roads). See more <a class="reference external" href="https://stackoverflow.com/questions/43773187/geoserver-set-sequence-of-layers-to-be-rendered-in-a-wms">link</a>.</p>
-<div class="align-center figure">
-<a class="reference internal image-reference" href="_images/map3.png"><img alt="alternate text" src="_images/map3.png" style="width: 200px;" /></a>
-</div>
 <p>To change the default layer being on when this map service is selected, export the map service as a TMS (Tableau Map Service) file.
 Then, go to the saved file located at <code class="docutils literal"><span class="pre">C:\Users\xxx\Documents\My</span> <span class="pre">Tableau</span> <span class="pre">Repository\Mapsources</span></code>, and change the <code class="docutils literal"><span class="pre">id</span></code> value to the layer name.</p>
 <div class="code xml highlight-default"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">style</span><span class="o">&gt;</span>
@@ -127,6 +122,14 @@ Then, go to the saved file located at <code class="docutils literal"><span class
   <span class="o">&lt;/</span><span class="n">style</span><span class="o">-</span><span class="n">rule</span><span class="o">&gt;</span>
 <span class="o">&lt;/</span><span class="n">style</span><span class="o">&gt;</span>
 </pre></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>If you are using a layer group WMS, Tableau will automatically order the layers by alphabetical order, rather than what you ordered in GeoServer layer groups.
+In order to overcome this limitation, you will need to number the <code class="docutils literal"><span class="pre">Name</span></code> field in GeoServer for each layer, e.g., (1 Coastline), (2 Waterbodies), (3 Roads). See more <a class="reference external" href="https://stackoverflow.com/questions/43773187/geoserver-set-sequence-of-layers-to-be-rendered-in-a-wms">link</a>.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/map3.png"><img alt="alternate text" src="_images/map3.png" style="width: 200px;" /></a>
 </div>
 <div class="line-block">
 <div class="line"><br /></div>
