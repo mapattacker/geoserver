@@ -47,7 +47,19 @@ In order to overcome this limitation, you will need to number the ``Name`` field
     :alt: alternate text
     :figclass: align-center
 
-    
+To change the default layer being on when this map service is selected, export the map service as a TMS (Tableau Map Service) file.
+Then, go to the saved file located at ``C:\Users\xxx\Documents\My Tableau Repository\Mapsources``, and change the ``id`` value to the layer name.
+
+.. code:: xml
+  
+    <style>
+      <style-rule element='map-layer'>
+        <format attr='enabled' id='coastal_sg' value='true' />
+      </style-rule>
+    </style>
+  
 .. _link: https://stackoverflow.com/questions/43773187/geoserver-set-sequence-of-layers-to-be-rendered-in-a-wms
+
+|
 
 
